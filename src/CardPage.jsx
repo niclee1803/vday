@@ -34,10 +34,10 @@ function CardPage() {
               </button>
             </div>
           ) : response === 'yes' ? (
-            <p className="response-text">You just made my day! <br/> I can't wait to spend Valentines day with you<br/></p>
+            <p className="response-text">&lt;3 <br/> I can't wait to spend Valentines day with you<br/></p>
           ) : (
             <div className="retry-container">
-              <p className="response-text">Oh no :( &nbsp; It's okay. You're still amazing &lt;3 <br/> But I hope you change your mind</p>
+              <p className="response-text">Oh no :( &nbsp; It's okay. You're still amazing &lt;3</p>
               <button 
                 onClick={() => handleResponse(null)}
                 className="response-button retry-button"
