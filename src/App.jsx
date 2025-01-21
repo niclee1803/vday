@@ -29,7 +29,7 @@ function MainComponent() {
 
 function App() {
   return (
-    <Router>
+    <Router basename='/vday'>
       <Routes>
         <Route path="/" element={<MainComponent />} />
         <Route path="/card" element={<CardPage />} />
