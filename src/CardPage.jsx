@@ -37,7 +37,7 @@ function CardPage() {
             <p className="response-text">&lt;3 <br/> I can't wait to spend Valentines day with you<br/></p>
           ) : (
             <div className="retry-container">
-              <p className="response-text">Oh no :( &nbsp; It's okay. You're still amazing &lt;3</p>
+              <p className="response-text">Wrong answer &nbsp; :(</p>
               <button 
                 onClick={() => handleResponse(null)}
                 className="response-button retry-button"
